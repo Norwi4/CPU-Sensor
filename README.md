@@ -50,7 +50,7 @@ python main.py
 
 * Первый график
 
-![](../../PycharmProjects/CPU-Sensor/content/1.png)
+![](content/1.png)
 
 * Второй график
 
