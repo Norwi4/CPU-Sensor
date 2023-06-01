@@ -54,7 +54,7 @@ python main.py
 
 * Второй график
 
-![](../../PycharmProjects/CPU-Sensor/content/2.png)
+![](content/2.png)
 
 Обратите внимание на пустоты в графиках. В эти промежутки времени скрипт не работал!
 
