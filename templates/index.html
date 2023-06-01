@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Monitoring</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="static/styles.css">
+    <link type="image/png" href="https://www.servermania.com/kb/wp-content/uploads/2022/07/cpu-chip.png" rel="icon">
+</head>
+
+<body>
+<!-- Меню -->
+
+
+<!-- Тело страницы -->
+<div class="container">
+
+    <div class="content">
+        <h2 class="subtitle">История изменения моментальной загрузки процессора</h2>
+        <div class="block">
+            <canvas id="historical-chart" width="1600px" height="800px"></canvas>
+        </div>
+        <h2 class="subtitle">График усредненной загрузки процессора</h2>
+        <div class="block">
+
+            <canvas id="average-chart" width="1600px" height="800px"></canvas>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Собственные скрипты -->
+<script type="text/javascript" src="static/charts.js"></script>
+</body>
+
+</html>
